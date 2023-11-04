@@ -1,0 +1,28 @@
+img{
+    width: 500px;
+    margin-left: 470px;
+}
+div{
+    margin-left: 400px;
+}
+input[type="text"]{
+    width: 50%;
+    height: 35px;
+}
+input[type="password"]{
+    width: 50%;
+    height: 35px;
+}
+input[type="submit"]{
+    margin-top: 50px;
+    width: 50%;
+    height: 35px;
+    background-color: green;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+input[type="checkbox"]{
+    margin-top: 20px;
+}

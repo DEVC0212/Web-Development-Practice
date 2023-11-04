@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gfg</title>
+    <link rel="stylesheet" href="gfg.css">
+</head>
+<body>
+    <h1>GeeksforGeeks Survey Form</h1>
+        <div class="dev">
+            <form action="gfg.php" method="post">
+                <p>
+                    *Name: <br>
+                   <input type="text" name="name" placeholder="enter your name" required> 
+                </p>
+                <p>
+                    *Email: <br>
+                    <input type="email" name="email" id="email" placeholder="enter your email" required>
+                </p>
+                <p>
+                    Age: <br>
+                    <input type="number" name="age" placeholder="enter your age">
+                </p>
+                <p>
+                    Which option best describes you? <br>
+                    <select name="profession" id="User">
+                    <option value="student" name="profession">Student</option>
+                    <option value="Professor" name="profession">Professor</option>
+                </select>
+                </p>
+                <p>
+                   Would you recommend GeeksforGeeks as a friend?<br>
+                   <!-- <label for="recommed - 1"> -->
+                  <input type="radio" name="friend">Yes <br></input>
+                  <!-- </label> -->
+                  
+                  <!-- <label for="recommed-2"> -->
+                  <input type="radio" name="friend">No <br></input>
+                  <!-- </label> -->
+
+                  <!-- <label for="recommed-3"> -->
+                  <input type="radio" name="friend">May Be <br></input>
+                  <!-- </label> -->
+                  
+                </p>
+                <p>
+                    Languages and Frameworks Known? <br>
+                    <label>
+                        <input type="checkbox" name="Languages">C <br>
+                     </label>
+                     <label>
+                        <input type="checkbox" name="Languages">C++ <br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="Languages">C# <br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="Languages">Java <br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="Languages">Python <br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="Languages">Django <br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="Languages">JavaScript <br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="Languages">Spring <br>
+                    </label>
+                </p>
+                <p>
+                    Any Comments Or Suggestions? <br>
+                    <textarea name="suggest" id="suggest" cols="80" rows="4"></textarea>
+                </p>
+                <!-- <input type="reset" value="Reset"> -->
+                <input type="submit" value="Submit" name="submit">
+            </form>
+        </div>
+</body>
+</html>
